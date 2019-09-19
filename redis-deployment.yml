@@ -5,7 +5,7 @@ kind: Deployment
 metadata:
   name: redis-deployment
   labels:
-    app: demo-voting-app
+    app: redis
 spec:
   replicas: 1
   selector:

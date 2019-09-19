@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 
 metadata:
-  name: db-deployment
+  name: postgres-deployment
   labels:
     app: demo-voting-app
 spec:
